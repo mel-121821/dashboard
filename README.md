@@ -38,3 +38,12 @@ Step 5: Some tips!
 - [ ] This project does not have to be responsive, but if you’d like to you can expand or shrink the project cards section when resizing the browser window.
 - [ ] You don’t have to make a pixel perfect match with the design example. Consider this an opportunity to practice your CSS skills with your own designs.
 - [ ] Don’t forget to push your finished dashboard to GitHub. Use GitHub Pages to publish it to the world!
+
+
+Media References:
+
+
+Resources: 
+
+Creating checkboxes (and more) in a github README.md file:
+https://www.programmingbasic.com/create-checkbox-inside-markdown-table-github#:~:text=How%20to%20use%20checkboxes%20in%20GitHub%20markdown%3F&text=Add%20a%20dash%20(%20%2D%20)%20followed,to%20represent%20an%20unchecked%20checkbox.
