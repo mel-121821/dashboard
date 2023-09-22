@@ -9,7 +9,46 @@
 </head>
 <body>
     <div class="container">
-        <div class="header">Header</div>
+        <div class="header">
+            <div class="header-top">
+                <div class="search">
+                    <div class="search-icon"></div>
+                    <form action="" method="get">
+                     <!-- method="get": best for non-secure data, like a query string in google
+                    method="post": for sensitive data --> 
+                        <input type="search" id="query" name="q" placeholder="Search">  
+                    </form>
+                </div>
+                <div class="accounts">
+                    <div class="notifications"></div>
+                    <div class="account-icon side-icon"></div>
+                    <div class="account-name">Megan Lindsay</div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="account-icon main-icon"></div>
+                <div class="greeting">
+                    <p>Hi there,</p>
+                </div>
+                <div class="title-name">
+                    <p>Megan Lindsay (@mlindsay)</p>
+                </div>
+                <div class="header-options">
+                    <ol>
+                        <li class="new">
+                            <button>New</button>
+                        </li>
+                        <li class="upload">
+                            <button>Upload</button>
+                        </li>
+                        <li class="share">
+                            <button>Share</button>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
         <div class="sidebar">Sidebar</div>
         <div class="main">Main</div>
         <div class="footer">Footer</div>
