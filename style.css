@@ -86,6 +86,7 @@ div {
 .search {
     grid-column: 1;
     display: flex;
+    align-items: center;
 }
 
 .search-icon {
@@ -95,6 +96,7 @@ div {
 
 .accounts {
     display: flex;
+    align-items: center;
 }
 
 .notifications {
