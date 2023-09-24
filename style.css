@@ -168,7 +168,7 @@ div {
 .main {
     background-color: rgb(255, 192, 203, 0.4);
     display: grid;
-    grid-template: 50px 1fr 50px 1fr / 1fr 200px;
+    grid-template: 50px 240px 50px 270px 1fr / 1fr 200px;
 }
 
 h3 {
@@ -176,11 +176,20 @@ h3 {
     font-weight: 700;
 }
 
+.projects {
+    grid-row: 2 / 6;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+    grid-template-rows: repeat(3, 1fr);
+    padding: 20px;
+    gap: 20px;
+}
+
 .card {
     display: flex;
     flex-direction: column;
     padding: 15px;
-    
+    min-height: 200px;
 }
 
 .card > h5 {
@@ -196,13 +205,6 @@ h3 {
 .card .card-icons {
     display: flex;
     align-self: flex-end;
-}
-
-.projects {
-    grid-row: 2 / 5;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
-    grid-template-rows: repeat(3, 1fr)
 }
 
 .announcements {
