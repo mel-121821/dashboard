@@ -166,6 +166,36 @@ div {
 
 .main {
     background-color: rgb(255, 192, 203, 0.4);
+    display: grid;
+    grid-template: 50px 1fr 50px 1fr / 1fr 200px;
+}
+
+.projects {
+    grid-row: 2 / 5;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+    grid-template-rows: repeat(3, 1fr)
+}
+
+.announcements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.a > h5 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.trending {
+    display: grid;
+    grid-template: repeat(4, 1fr) / 80px 1fr;
+    align-items: center;
+}
+
+.trending .icon {
+    justify-self: center;
 }
 
 .footer {
