@@ -171,4 +171,7 @@ div {
 .footer {
     grid-column: 1 / 3;
     background-color: rgba(150, 63, 185, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
