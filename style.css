@@ -149,6 +149,7 @@ div {
     align-items: center;
     gap: 10px;
     font-size: 1.5rem;
+    font-weight: 700;
     margin-top: 30px;
 }
 
@@ -170,6 +171,33 @@ div {
     grid-template: 50px 1fr 50px 1fr / 1fr 200px;
 }
 
+h3 {
+    align-self: center;
+    font-weight: 700;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    
+}
+
+.card > h5 {
+    font-weight: 700;
+    margin: 20px 0px 10px 0px;
+}
+
+.card > p {
+    margin-bottom: auto;
+    font-size: 0.9rem;
+}
+
+.card .card-icons {
+    display: flex;
+    align-self: flex-end;
+}
+
 .projects {
     grid-row: 2 / 5;
     display: grid;
@@ -183,9 +211,15 @@ div {
     justify-content: space-evenly;
 }
 
-.a > h5 {
+.a > h6 {
     font-weight: 700;
     margin-bottom: 10px;
+}
+
+.a > p,
+.t > p,
+.name-title {
+    font-size: 0.9rem;
 }
 
 .trending {
@@ -196,6 +230,10 @@ div {
 
 .trending .icon {
     justify-self: center;
+}
+
+.name {
+    font-weight: 700;
 }
 
 .footer {
