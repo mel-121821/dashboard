@@ -42,6 +42,10 @@ Step 5: Some tips!
 
 Media References:
 
+bg1-leaves: Dung Tran @ pixabay.com
+
+Tools:
+Pull color palette from an image: https://coolors.co/image-picker
 
 Resources: 
 
