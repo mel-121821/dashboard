@@ -42,7 +42,8 @@ Step 5: Some tips!
 
 Media References:
 
-bg1-leaves: Dung Tran @ pixabay.com
+bg1-leaves: Dung Tran (Kollsd) @ pixabay.com
+bg2-beach: jiangfei20200519 @ pixabay.com
 
 Tools:
 Pull color palette from an image: https://coolors.co/image-picker
@@ -51,3 +52,6 @@ Resources:
 
 Creating checkboxes (and more) in a github README.md file:
 https://www.programmingbasic.com/create-checkbox-inside-markdown-table-github#:~:text=How%20to%20use%20checkboxes%20in%20GitHub%20markdown%3F&text=Add%20a%20dash%20(%20%2D%20)%20followed,to%20represent%20an%20unchecked%20checkbox.
+
+How to add opacity to a background image:
+https://coder-coder.com/background-image-opacity/
