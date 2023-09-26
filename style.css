@@ -250,7 +250,7 @@ h3 {
 .projects {
     grid-row: 2 / 6;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     grid-template-rows: repeat(3, 1fr);
     padding: 0px 20px 20px 20px;
     gap: 30px;
@@ -260,10 +260,17 @@ h3 {
     display: flex;
     flex-direction: column;
     padding: 15px;
-    min-height: 200px;
-    /*background-color: var(--mint-light);*/
-    background-color: var(--antiflash-white);
+    min-height: 240px;
+    background-color: var(--mint-light);
+    /*background-color: var(--antiflash-white);*/
     border-radius: 20px;
+}
+
+.card-img {
+    height: 30%;
+    width: 100%;
+    align-self: center;
+    border-radius: 10px;
 }
 
 .card > h5 {
@@ -288,6 +295,7 @@ h3 {
     background-color: var(--mint-light);
     /*background-color: var(--antiflash-white);*/
     border-radius: 20px;
+    padding: 15px;
 }
 
 .a > h6 {
@@ -305,13 +313,11 @@ h3 {
     display: grid;
     grid-template: repeat(4, 1fr) / 80px 1fr;
     align-items: center;
+    justify-items: stretch;
     background-color: var(--mint-light);
     /*background-color: var(--antiflash-white);*/
     border-radius: 20px;
-}
-
-.trending .icon {
-    justify-self: center;
+    padding: 15px;
 }
 
 .name {
