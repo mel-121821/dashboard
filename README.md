@@ -25,8 +25,8 @@ Step 3: Nesting
 
 Step 4: Gather assets
 
-- [ ] Once you have your grid layout complete you can either recreate the dashboard example above or style your own design.
-- [ ] Check out some color palettes from Tailwind.
+- [x] Once you have your grid layout complete you can either recreate the dashboard example above or style your own design.
+- [x] Check out some color palettes from Tailwind.
 - [ ] All of the icons and more can be downloaded as SVGs from Material Design Icons.
 - [ ] Choose your own fonts! The design example uses Roboto, which is available with Google fonts.
 
@@ -55,3 +55,7 @@ https://www.programmingbasic.com/create-checkbox-inside-markdown-table-github#:~
 
 How to add opacity to a background image:
 https://coder-coder.com/background-image-opacity/
+
+HTML emojis:
+https://www.w3schools.com/html/html_emojis.asp
+https://www.w3schools.com/charsets/ref_emoji_smileys.asp
