@@ -61,7 +61,10 @@ table {
 --mint: hsla(155, 37%, 58%, 1);
 
 --mint-light: hsla(155, 37%, 90%, 1);
+--mint-dark: hsla(155, 37%, 40%, 1);
 --viridian-light: hsla(155, 27%, 60%, 1);
+--brunswick-green-light: hsla(174, 66%, 30%, 1);
+--brunswick-green-lightest: hsla(174, 66%, 90%, 1);
 
 
 /*___Theme 2 (beach)______*/
@@ -106,6 +109,7 @@ div {
     /* grid-template shorthand: grid-rows / grid-columns*/
     border: 1px solid gray;
     height: 100vh;
+    background-color: var(--brunswick-green-lightest);
 }
 
 .icon {
@@ -115,7 +119,7 @@ div {
 
 .header {
     grid-column: 2 / 3;
-    background-color: var(--mint-light);
+    background-color: var(--brunswick-green-lightest);
     /*background-color: var(--antiflash-white);*/
     display: grid;
     grid-template-rows: 1fr 2fr;
@@ -175,7 +179,10 @@ div {
 
 .sidebar {
     grid-row: 1 / 3;
-    background-color: var(--mint);
+    background-color: var(--brunswick-green-light);
+    color: var(--brunswick-green-lightest);
+    font-weight: 600;
+    font-size: 1.2rem;
     display: flex;
     /*background-color: var(--moonstone-dark);
     color: var(--antiflash-white);*/
@@ -197,12 +204,14 @@ div {
     display: grid;
     grid-template: repeat(6, 50px) / 50px 1fr;
     align-items: center;
+    gap: 0px 20px;
 }
 
 .settings-menu {
     display: grid;
     grid-template: repeat(3, 50px) / 50px 1fr;
     align-items: center;
+    gap: 0px 20px;
 }
 
 .main {
@@ -232,7 +241,7 @@ h3 {
     align-self: self-end;
     padding: 10px;
     font-weight: 700;
-    color: var(--mint-light);
+    color: var(--brunswick-green-lightest);
 }
 
 .projects-header {
@@ -261,7 +270,7 @@ h3 {
     flex-direction: column;
     padding: 15px;
     min-height: 240px;
-    background-color: var(--mint-light);
+    background-color: var(--brunswick-green-lightest);
     /*background-color: var(--antiflash-white);*/
     border-radius: 20px;
 }
@@ -292,7 +301,7 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: var(--mint-light);
+    background-color: var(--brunswick-green-lightest);
     /*background-color: var(--antiflash-white);*/
     border-radius: 20px;
     padding: 15px;
@@ -314,7 +323,7 @@ h3 {
     grid-template: repeat(4, 1fr) / 80px 1fr;
     align-items: center;
     justify-items: stretch;
-    background-color: var(--mint-light);
+    background-color: var(--brunswick-green-lightest);
     /*background-color: var(--antiflash-white);*/
     border-radius: 20px;
     padding: 15px;
@@ -327,7 +336,7 @@ h3 {
 .footer {
     grid-column: 1 / 3;
     background-color: var(--brunswick-green);
-    color: var(--mint-light);
+    color: var(--brunswick-green-lightest);
     /*background-color: var(--moonstone-dark);
     color: var(--antiflash-white); */
     font-weight: 700;
