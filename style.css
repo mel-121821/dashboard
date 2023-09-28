@@ -111,10 +111,6 @@ div {
     background-color: var(--brunswick-green-light);
 }
 
-
-
-
-
 .header {
     grid-column: 2 / 3;
     background-color: var(--brunswick-green-light);
@@ -137,8 +133,8 @@ div {
 }
 
 .icon {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -199,16 +195,34 @@ path {
 
 .header-bottom {
     display: grid;
-    grid-template: 1fr 2fr / 70px 1fr 250px;
+    grid-template: 1fr / 70px 1fr 250px;
+    gap: 0px 20px;
     align-items: center;
+    margin-top: -10px;
 }
 
 .main-icon {
     grid-row: 1 / 3;
+    height: 65px;
+    width: 65px;
+    overflow: hidden;
+    border-radius: 50%;
 }
 
-.greeting {
-    align-self: end;
+.main-icon img {
+    height: 100%;
+}
+
+.intro {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.intro > p:nth-child(2) {
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 .title-name {
