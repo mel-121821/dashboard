@@ -116,6 +116,9 @@ div {
 .icon {
     width: 50px;
     height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
@@ -134,8 +137,24 @@ div {
 
 .search {
     grid-column: 1;
-    display: flex;
+    display: grid;
+    grid-template: 70px / 50px 1fr;
     align-items: center;
+}
+
+.search > .icon > svg {
+    width: 25px;
+    height: 25px; 
+}
+
+.search input[type="search"] {
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 1px 1px 4px var(--brunswick-green-dark);
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    border-color: var(--brunswick-green-dark);
+    width: 85%;
 }
 
 .accounts {
