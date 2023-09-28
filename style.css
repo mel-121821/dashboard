@@ -111,6 +111,10 @@ div {
     background-color: var(--brunswick-green-light);
 }
 
+
+/*__________Header__________*/
+
+
 .header {
     grid-column: 2 / 3;
     background-color: var(--brunswick-green-light);
@@ -225,11 +229,6 @@ path {
     font-weight: 700;
 }
 
-.title-name {
-    grid-row: 2 / 3;
-    grid-column: 2 / 3;
-}
-
 .header-options {
     grid-column: 3 / 4;
     grid-row: 1 / 3;
@@ -240,6 +239,10 @@ path {
     display: flex;
     justify-content: space-evenly;
 }
+
+
+/*__________Sidebar__________*/
+
 
 .sidebar {
     grid-row: 1 / 3;
@@ -277,6 +280,10 @@ path {
     align-items: center;
     gap: 0px 20px;
 }
+
+
+/*__________Main__________*/
+
 
 .main {
     /*background-image: url('img/bg2-beach.jpg');
@@ -367,6 +374,10 @@ h3 {
     align-self: flex-end;
 }
 
+
+/*__________Announcements__________*/
+
+
 .announcements {
     display: flex;
     flex-direction: column;
@@ -387,6 +398,10 @@ h3 {
 .name-title {
     font-size: 0.9rem;
 }
+
+
+/*__________Trending__________*/
+
 
 .trending {
     display: grid;
