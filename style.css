@@ -97,18 +97,16 @@ table {
 html {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    color: var(--midnight-green);
 }
 
 div {
-    border: 1px solid black;
+    border: 1px solid var(--brunswick-green-light);
 }
 
 .container {
     display: grid;
     grid-template: 150px 1fr 50px / minmax(250px, 1fr) 4fr;
     /* grid-template shorthand: grid-rows / grid-columns*/
-    border: 1px solid gray;
     height: 100vh;
     background-color: var(--brunswick-green-light);
 }
@@ -119,6 +117,10 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+path {
+    fill: var(--brunswick-green-dark);
 }
 
 .header {
@@ -151,10 +153,16 @@ div {
     padding: 5px;
     border-radius: 20px;
     border: none;
-    box-shadow: 1px 1px 4px var(--brunswick-green-dark);
+    box-shadow: 1px 1px 4px var(--brunswick-green-med);
     /* offset-x | offset-y | blur-radius | spread-radius | color */
-    border-color: var(--brunswick-green-dark);
     width: 85%;
+    border: 0;
+    outline: 0;
+}
+
+.search input[type="search"]:focus {
+    box-shadow: 1px 1px 4px 1px var(--brunswick-green-med);
+    /*border-color does not work in this context, use outline instead*/
 }
 
 .accounts {
