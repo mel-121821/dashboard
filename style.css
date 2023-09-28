@@ -199,7 +199,7 @@ path {
 
 .header-bottom {
     display: grid;
-    grid-template: 1fr / 70px 1fr 250px;
+    grid-template: 1fr / 70px 1fr 325px;
     gap: 0px 20px;
     align-items: center;
     margin-top: -10px;
@@ -236,10 +236,28 @@ path {
 }
 
 .header-options ol {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: space-evenly;
+    gap: 20px;
 }
 
+.header-options li {
+    width: 100%;
+}
+
+button {
+    background-color: var(--brunswick-green-dark);
+    color: var(--brunswick-green-light);
+    font-size: 1rem;
+    font-weight: 700;
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 50px;
+    border: 0;
+
+}
 
 /*__________Sidebar__________*/
 
