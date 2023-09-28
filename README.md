@@ -45,8 +45,15 @@ Media References:
 bg1-leaves: Dung Tran (Kollsd) @ pixabay.com
 bg2-beach: jiangfei20200519 @ pixabay.com
 
+
+
 Tools:
 Pull color palette from an image: https://coolors.co/image-picker
+
+Icons:
+https://pictogrammers.com/library/mdi/
+
+
 
 Resources: 
 
@@ -59,3 +66,9 @@ https://coder-coder.com/background-image-opacity/
 HTML emojis:
 https://www.w3schools.com/html/html_emojis.asp
 https://www.w3schools.com/charsets/ref_emoji_smileys.asp
+
+Changing SVG color:
+https://www.shecodes.io/athena/57595-how-to-change-svg-color-with-css#:~:text=To%20change%20the%20color%20of,the%20color%20of%20the%20element.&text=Here%2C%20the%20fill%20property%20is,%23ff0000%20%2C%20which%20is%20red.
+
+Outline issue on search bar:
+https://stackoverflow.com/questions/66100958/why-does-this-search-bar-have-this-weird-outline-css
