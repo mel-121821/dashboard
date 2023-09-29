@@ -80,3 +80,9 @@ https://stackoverflow.com/questions/66100958/why-does-this-search-bar-have-this-
 
 Making a circular image:
 https://ckmobile.medium.com/css-overflow-to-create-circular-profile-pictures-bdd245437c8e#:~:text=At%20the%20CSS%20file%2C%20we%20set%20the%20width%20and%20height,overflow%20part%20by%20the%20container.&text=Since%20the%20height%20is%20shorter,to%20fill%20the%20circular%20container.
+
+Sizing an image to fit a div:
+https://www.geeksforgeeks.org/how-to-auto-resize-an-image-to-fit-a-div-container-using-css/
+
+Turning an image into a link:
+https://www.geeksforgeeks.org/how-to-turn-an-image-into-a-link-in-html/
