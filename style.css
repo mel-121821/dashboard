@@ -199,7 +199,7 @@ path {
 
 .header-bottom {
     display: grid;
-    grid-template: 1fr / 70px 1fr 325px;
+    grid-template: 1fr / 70px minmax(150px, 1fr) 325px;
     gap: 0px 20px;
     align-items: center;
     margin-top: -10px;
@@ -225,7 +225,7 @@ path {
 }
 
 .intro > p:nth-child(2) {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 700;
 }
 
@@ -283,6 +283,15 @@ button {
     font-size: 1.5rem;
     font-weight: 700;
     margin-top: 30px;
+}
+
+.title > .icon > svg {
+    width: 45px;
+    height: 45px;
+}
+
+.title > .icon > svg > path {
+    fill: var(--brunswick-green-light);
 }
 
 .nav-menu {
