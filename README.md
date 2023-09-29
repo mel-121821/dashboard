@@ -20,7 +20,7 @@ Step 3: Nesting
 - [x] In the sidebar, use more grids to lay out the navigation and branding sections.
 - [x] In the header, use more grids to lay out the search bar, user info and buttons.
 - [x] For the main-content, use more grids to lay out the projects, announcements and trending items.
-- [ ] Fill out some dummy content and placeholder images so you can position all of your grid items.
+- [x] Fill out some dummy content and placeholder images so you can position all of your grid items.
 
 
 Step 4: Gather assets
@@ -42,8 +42,13 @@ Step 5: Some tips!
 
 Media References:
 
-bg1-leaves: Dung Tran (Kollsd) @ pixabay.com
-bg2-beach: jiangfei20200519 @ pixabay.com
+bg1-leaves: Dung Tran (Kollsd) - Pixabay
+bg2-beach: jiangfei20200519 - Pixabay
+
+pokeball-background - jmanalog (Jay) - Unsplash
+calculator: Robert Owen-Wahl (Shutterbug75) - Pixabay
+coffee-mug2: Decha Huayyai - Pexels
+sleeping-kitten: Ihsan Adityawarman - Pexels
 
 
 
@@ -72,3 +77,6 @@ https://www.shecodes.io/athena/57595-how-to-change-svg-color-with-css#:~:text=To
 
 Outline issue on search bar:
 https://stackoverflow.com/questions/66100958/why-does-this-search-bar-have-this-weird-outline-css
+
+Making a circular image:
+https://ckmobile.medium.com/css-overflow-to-create-circular-profile-pictures-bdd245437c8e#:~:text=At%20the%20CSS%20file%2C%20we%20set%20the%20width%20and%20height,overflow%20part%20by%20the%20container.&text=Since%20the%20height%20is%20shorter,to%20fill%20the%20circular%20container.
