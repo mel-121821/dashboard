@@ -290,7 +290,9 @@ button {
     height: 45px;
 }
 
-.title > .icon > svg > path {
+.title > .icon > svg > path,
+.nav-menu > .icon > svg > path,
+.settings-menu > .icon > svg > path {
     fill: var(--brunswick-green-light);
 }
 
@@ -298,14 +300,21 @@ button {
     display: grid;
     grid-template: repeat(6, 50px) / 50px 1fr;
     align-items: center;
-    gap: 0px 20px;
+    gap: 0px 10px;
+}
+
+.nav-menu > .icon > svg,
+.settings-menu > .icon > svg {
+    
+    width: 30px;
+    height: 30px;
 }
 
 .settings-menu {
     display: grid;
     grid-template: repeat(3, 50px) / 50px 1fr;
     align-items: center;
-    gap: 0px 20px;
+    gap: 0px 10px;
 }
 
 
