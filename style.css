@@ -352,7 +352,7 @@ h3 {
     color: var(--brunswick-green-light);
     background-color: var(--rich-black-fade);
     border-radius: 20px;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
     
 }
 
@@ -386,6 +386,14 @@ h3 {
     background-color: var(--brunswick-green-light);
     /*background-color: var(--antiflash-white);*/
     border-radius: 20px;
+    transition: 1s ease;
+}
+
+.card:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 1s ease;
 }
 
 .card-img {
@@ -396,7 +404,7 @@ h3 {
     border: 2px solid var(--brunswick-green-dark);
 }
 
-.card-img > img {
+.card-img > a > img {
     height: 100%;
     width: 100%;
     border-radius: 10px;
