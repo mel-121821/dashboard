@@ -99,9 +99,9 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-div {
+/*div {
     border: 1px solid var(--brunswick-green-light);
-}
+}*/
 
 .container {
     display: grid;
@@ -392,45 +392,15 @@ h3 {
     height: 100px;
     width: 100%;
     align-self: center;
-    border-radius: 10px;
+    border-radius: 12px;
     border: 2px solid var(--brunswick-green-dark);
 }
 
-.card-1 .card-img {
-    background-image: url('img/pokeball-background.jpg');
-    background-size: cover;
-    background-position: 30% 45%;
-}
-
-.card-2 .card-img {
-    background-image: url('img/calculator.jpg');
-    background-size: cover;
-    background-position: 50% 45%;
-}
-
-.card-3 .card-img {
-    background-image: url('img/etch-a-sketch-2.jpg');
-    background-size: cover;
-    background-position: 50% 45%;
-}
-
-.card-4 .card-img {
-    background-image: url('img/rock-paper-scissors-4.jpg');
-    background-size: cover;
-    background-position: 49% 45%;
-}
-
-.card-5 .card-img {
-    background-image: url('img/coffee-mug2.jpg');
-    background-size: cover;
-    background-position: 49% 45%;
-}
-
-.card-6 .card-img {
-    background-image: url('img/sleeping-kitten.jpg');
-    background-size: cover;
-    background-position: 55% 50%;
-    filter: saturate(80%);
+.card-img > img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 .card > h5 {
