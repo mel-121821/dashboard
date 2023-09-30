@@ -100,7 +100,7 @@ html {
 }
 
 /*div {
-    border: 1px solid var(--brunswick-green-light);
+    border: 1px solid var(--brunswick-green-med);
 }*/
 
 .container {
@@ -450,6 +450,14 @@ h3 {
 .card .card-icons {
     display: flex;
     align-self: flex-end;
+    gap: 3px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.card > .card-icons > .icon > svg {
+    width: 20px;
+    height: 20px;
 }
 
 
