@@ -179,11 +179,13 @@ path {
 .notifications {
     width: 50px;
     height: 50px;
+    cursor: pointer;
 }
 
 .side-icon {
     overflow: hidden;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .side-icon img {
@@ -195,6 +197,7 @@ path {
     justify-content: center;
     font-weight: 700;
     color: var(--brunswick-green-dark);
+    cursor: pointer;
 }
 
 .header-bottom {
@@ -211,6 +214,7 @@ path {
     width: 65px;
     overflow: hidden;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .main-icon img {
@@ -256,8 +260,17 @@ button {
     padding-bottom: 7px;
     border-radius: 50px;
     border: 0;
-
+    transition: 1s ease;
 }
+
+button:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+    cursor: pointer;
+}
+
 
 /*__________Sidebar__________*/
 
@@ -294,6 +307,19 @@ button {
 .nav-menu > .icon > svg > path,
 .settings-menu > .icon > svg > path {
     fill: var(--brunswick-green-light);
+}
+
+.link {
+    transition: 1s ease;
+}
+
+.link:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+    cursor: pointer;
+
 }
 
 .nav-menu {
