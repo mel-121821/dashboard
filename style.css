@@ -158,7 +158,7 @@ html {
     align-items: center;
 }
 
-svg {
+.svg {
     width: 25px;
     height: 25px; 
 }
@@ -323,15 +323,9 @@ button:hover {
     margin-top: 30px;
 }
 
-.title > .icon > svg {
+.title > .icon > .svg {
     width: 45px;
     height: 45px;
-}
-
-.title > .icon > svg > path,
-.nav-menu > .icon > svg > path,
-.settings-menu > .icon > svg > path {
-    fill: var(--brunswick-green-light);
 }
 
 .link {
@@ -354,8 +348,8 @@ button:hover {
     gap: 0px 10px;
 }
 
-.nav-menu > .icon > svg,
-.settings-menu > .icon > svg {
+.nav-menu > .icon > .svg,
+.settings-menu > .icon > .svg {
     
     width: 30px;
     height: 30px;
@@ -489,7 +483,7 @@ h3 {
     cursor: pointer;
 }
 
-.card > .card-icons > .icon > svg {
+.card > .card-icons > .icon > .svg {
     width: 20px;
     height: 20px;
 }
