@@ -86,3 +86,7 @@ https://www.geeksforgeeks.org/how-to-auto-resize-an-image-to-fit-a-div-container
 
 Turning an image into a link:
 https://www.geeksforgeeks.org/how-to-turn-an-image-into-a-link-in-html/
+
+
+Adding SVG references inline via the object tag:
+https://css-tricks.com/using-svg/
