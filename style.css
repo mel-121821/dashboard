@@ -85,6 +85,20 @@ table {
 --pine-green-light: hsla(172, 88%, 35%, 1);
 }
 
+@font-face {
+    font-family: young-serif;
+    src: url('fonts/young-serif.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: new-font;
+    src: url('fonts/open-sans.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -96,7 +110,7 @@ table {
 
 html {
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: new-font, sans-serif;
 }
 
 /*div {
@@ -198,6 +212,8 @@ path {
     font-weight: 700;
     color: var(--brunswick-green-dark);
     cursor: pointer;
+    font-family: young-serif, sans-serif;
+    letter-spacing: 0.04rem;
 }
 
 .header-bottom {
@@ -228,9 +244,14 @@ path {
     gap: 10px;
 }
 
+.intro > p {
+    font-family: young-serif, sans-serif;
+}
+
 .intro > p:nth-child(2) {
-    font-size: 1.1rem;
-    font-weight: 700;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
 }
 
 .header-options {
@@ -280,8 +301,10 @@ button:hover {
     padding: 20px;
     background-color: var(--brunswick-green-med);
     color: var(--brunswick-green-light);
+    font-family: young-serif, sans-serif;
     font-weight: 600;
     font-size: 1.2rem;
+    letter-spacing: 0.04em;
     display: flex;
     /*background-color: var(--moonstone-dark);
     color: var(--antiflash-white);*/
@@ -293,7 +316,7 @@ button:hover {
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 700;
     margin-top: 30px;
 }
@@ -352,6 +375,7 @@ button:hover {
     background-size: cover;
     background-position: 50% 50%;
     */
+    background-color: var(--rich-black);
     display: grid;
     grid-template: 60px 240px 60px 270px 1fr / 1fr 200px;
     padding: 0px 20px 0px 0px;
@@ -367,14 +391,16 @@ button:hover {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.9;
+    opacity: 0.4;
 }
 
 h3 {
     align-self: self-end;
     padding: 10px;
+    font-family: young-serif;
     font-size: 1.2rem;
     font-weight: 700;
+    letter-spacing: 0.04rem;
     color: var(--brunswick-green-light);
     background-color: var(--rich-black-fade);
     border-radius: 20px;
@@ -398,7 +424,7 @@ h3 {
 .projects {
     grid-row: 2 / 6;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
     grid-template-rows: repeat(3, 1fr);
     padding: 0px 20px 20px 20px;
     gap: 30px;
@@ -438,11 +464,16 @@ h3 {
 }
 
 .card > h5 {
+    font-family: young-serif;
+    font-size: 1.1rem;
     font-weight: 700;
+    letter-spacing: 0.04rem;
     margin: 20px 0px 10px 0px;
 }
 
 .card > p {
+    font-family: new-font, sans-serif;
+    font-weight: 400;
     margin-bottom: auto;
     font-size: 0.9rem;
 }
@@ -474,15 +505,23 @@ h3 {
     padding: 15px;
 }
 
-.a > h6 {
-    font-weight: 700;
-    margin-bottom: 10px;
+.announcement-section {
+    border-bottom: 1px solid var(--brunswick-green-med);
+    /*box-shadow: 0px 1px 0px var(--brunswick-green-med);
+     offset-x | offset-y | blur-radius | spread-radius | color */
 }
 
-.a > p,
-.t > p,
-.name-title {
+.announcement-section > h6 {
+    font-family: young-serif, sans-serif;
     font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.announcement-section > p {
+    font-family: new-font, sans-serif;
+    font-size: 0.8rem;
+    margin-bottom: 9px;
 }
 
 
