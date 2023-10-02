@@ -90,3 +90,6 @@ https://www.geeksforgeeks.org/how-to-turn-an-image-into-a-link-in-html/
 
 Adding SVG references inline via the object tag:
 https://css-tricks.com/using-svg/
+
+Collapse all meghods in VS code
+https://stackoverflow.com/questions/42660670/collapse-all-methods-in-visual-studio-code#:~:text=In%20Visual%20Studio%20Professional%2C%20we,and%20properties%20in%20a%20class.
