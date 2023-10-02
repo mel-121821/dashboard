@@ -380,7 +380,7 @@ button:hover {
 
 .main::before {
     content: "";
-    background-image: url('img/bg1-leaves.png');
+    background-image: url('img/backgrounds/bg1-leaves.png');
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -536,8 +536,20 @@ h3 {
 }
 
 .trending .icon {
-    justify-self: center;;
+    height: 50px;
+    width: 50px;
+    justify-self: center;
+    overflow: hidden;
+    border-radius: 50%;
+    cursor: pointer;
 }
+
+.trending img {
+    width: 110%;
+    object-position: 50% 50%;
+}
+
+
 
 .name {
     font-family: young-serif, sans-serif;
