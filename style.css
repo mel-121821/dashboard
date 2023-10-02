@@ -193,7 +193,6 @@ path {
 .notifications {
     width: 50px;
     height: 50px;
-    cursor: pointer;
 }
 
 .side-icon {
@@ -341,7 +340,6 @@ button:hover {
     transform: scale(1.1);
     transition: 1s ease;
     cursor: pointer;
-
 }
 
 .nav-menu {
@@ -353,7 +351,6 @@ button:hover {
 
 .nav-menu > .icon > .svg,
 .settings-menu > .icon > .svg {
-    
     width: 30px;
     height: 30px;
 }
@@ -483,7 +480,6 @@ h3 {
     align-self: flex-end;
     gap: 3px;
     margin-top: 3px;
-    cursor: pointer;
 }
 
 .card > .card-icons > .icon > .svg {
@@ -578,6 +574,8 @@ h3 {
     font-size: 0.8rem;
 }
 
+/*__________Footer__________*/
+
 .footer {
     grid-column: 1 / 3;
     background-color: var(--brunswick-green-dark);
@@ -588,4 +586,20 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer-icon {
+    margin-left: 5px;
+}
+
+.footer-icon > a > .svg {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-icon > a > .svg:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.2);
+    transition: 0.3s ease;
 }
