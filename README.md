@@ -102,3 +102,9 @@ https://stackoverflow.com/questions/42660670/collapse-all-methods-in-visual-stud
 
 Positioning an image:
 https://www.javatpoint.com/how-to-position-an-image-in-css
+
+Cursor styles on SVG files:
+https://stackoverflow.com/questions/26672936/cursor-pointer-on-svg-element-is-not-working
+
+Making an SVG into a clickable link:
+https://stackoverflow.com/questions/11374059/make-an-html-svg-object-also-a-clickable-link
