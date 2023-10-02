@@ -28,7 +28,7 @@ Step 4: Gather assets
 - [x] Once you have your grid layout complete you can either recreate the dashboard example above or style your own design.
 - [x] Check out some color palettes from Tailwind.
 - [ ] All of the icons and more can be downloaded as SVGs from Material Design Icons.
-- [ ] Choose your own fonts! The design example uses Roboto, which is available with Google fonts.
+- [x] Choose your own fonts! The design example uses Roboto, which is available with Google fonts.
 
 
 Step 5: Some tips!
@@ -36,20 +36,26 @@ Step 5: Some tips!
 - [x] When building the layout, apply background colors or borders to your containers to help you visualize your grid.
 - [x] It’s up to you whether to use pixels, fr units or both for your grid tracks.
 - [x] This project does not have to be responsive, but if you’d like to you can expand or shrink the project cards section when resizing the browser window.
-- [ ] You don’t have to make a pixel perfect match with the design example. Consider this an opportunity to practice your CSS skills with your own designs.
+- [x] You don’t have to make a pixel perfect match with the design example. Consider this an opportunity to practice your CSS skills with your own designs.
 - [ ] Don’t forget to push your finished dashboard to GitHub. Use GitHub Pages to publish it to the world!
 
 
 Media References:
 
+Backgrounds:
 bg1-leaves: Dung Tran (Kollsd) - Pixabay
 bg2-beach: jiangfei20200519 - Pixabay
 
+Card Images:
 pokeball-background - jmanalog (Jay) - Unsplash
 calculator: Robert Owen-Wahl (Shutterbug75) - Pixabay
 coffee-mug2: Decha Huayyai - Pexels
 sleeping-kitten: Ihsan Adityawarman - Pexels
 
+Profile Images:
+border-collie: Baptist Standaert - Unsplash
+budgies: David Clode - Unsplash
+horses: Rebecca Scholz - Pixabay
 
 
 Tools:
@@ -93,3 +99,6 @@ https://css-tricks.com/using-svg/
 
 Collapse all methods in VS code
 https://stackoverflow.com/questions/42660670/collapse-all-methods-in-visual-studio-code#:~:text=In%20Visual%20Studio%20Professional%2C%20we,and%20properties%20in%20a%20class.
+
+Positioning an image:
+https://www.javatpoint.com/how-to-position-an-image-in-css
