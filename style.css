@@ -373,7 +373,7 @@ button:hover {
     */
     background-color: var(--rich-black);
     display: grid;
-    grid-template: 60px 240px 60px 270px 1fr / 1fr 200px;
+    grid-template: 60px 240px 60px 270px 1fr / 1fr 220px;
     padding: 0px 20px 0px 0px;
     position: relative;
 }
@@ -525,7 +525,8 @@ h3 {
 
 .trending {
     display: grid;
-    grid-template: repeat(4, 1fr) / 70px 1fr;
+    grid-template: repeat(4, 1fr) / 50px 1fr;
+    gap: 0px 10px;
     align-items: center;
     justify-items: stretch;
     background-color: var(--brunswick-green-light);
@@ -534,8 +535,19 @@ h3 {
     padding: 15px;
 }
 
+.trending .icon {
+    justify-self: center;;
+}
+
 .name {
-    font-weight: 700;
+    font-family: young-serif, sans-serif;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.name-title {
+    font-family: new-font, sans-serif;
+    font-size: 0.8rem;
 }
 
 .footer {
