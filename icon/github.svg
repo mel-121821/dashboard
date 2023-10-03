@@ -7,4 +7,11 @@
 path {
     fill: hsla(174, 66%, 90%, 1);
 }
+
+svg:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
 </style></svg>
